@@ -1,0 +1,130 @@
+<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA">
+<tbody>
+<tr>
+<td>
+<table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+<tbody>
+<tr bgcolor="#EAF2FA">
+<td colspan="2"><font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="20">&nbsp;</td>
+<td><font style="font-family: sans-serif; font-size:12px;">[name]</font></td>
+</tr>
+<tr bgcolor="#EAF2FA">
+<td colspan="2"><font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="20">&nbsp;</td>
+<td><font style="font-family: sans-serif; font-size:12px;"><a href="mailto:[email]">[email]</a></font>
+</td>
+</tr>
+<tr bgcolor="#EAF2FA">
+<td colspan="2"><font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="20">&nbsp;</td>
+<td><font style="font-family: sans-serif; font-size:12px;">[address]<br>
+[city], [postalcode]<br>
+<a href="http://maps.google.com/maps?q=[address]%20[city]%20[postalcode]" target="_blank" class="map-it-link">Map It</a></font>
+</td>
+</tr>
+<tr bgcolor="#EAF2FA">
+<td colspan="2"><font style="font-family: sans-serif; font-size:12px;"><strong>Phone</strong></font>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="20">&nbsp;</td>
+<td><font style="font-family: sans-serif; font-size:12px;">[phone]</font></td>
+</tr>
+<tr bgcolor="#EAF2FA">
+<td colspan="2"><font style="font-family: sans-serif; font-size:12px;"><strong>Description of Event (Please include target audience, anticipated number of participants):</strong></font>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="20">&nbsp;</td>
+<td><font style="font-family: sans-serif; font-size:12px;">[description]</font>
+</td>
+</tr>
+<tr bgcolor="#EAF2FA">
+<td colspan="2"><font style="font-family: sans-serif; font-size:12px;"><strong>How will funds be generated at this event? (i.e. admission price, raffle, % of sales, etc.):</strong></font>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="20">&nbsp;</td>
+<td><font style="font-family: sans-serif; font-size:12px;">[funds]</font>
+</td>
+</tr>
+<tr bgcolor="#EAF2FA">
+<td colspan="2"><font style="font-family: sans-serif; font-size:12px;"><strong>Other means (if any) by which funds will be donated to Wellspring Edmonton:</strong></font></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="20">&nbsp;</td>
+<td><font style="font-family: sans-serif; font-size:12px;">[other_means]</font>
+</td>
+</tr>
+<tr bgcolor="#EAF2FA">
+<td colspan="2"><font style="font-family: sans-serif; font-size:12px;"><strong>Describe publicity/promotional plans for the event/sponsorship:</strong></font></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="20">&nbsp;</td>
+<td><font style="font-family: sans-serif; font-size:12px;">[publicity]</font></td>
+</tr>
+<tr bgcolor="#EAF2FA">
+<td colspan="2"><font style="font-family: sans-serif; font-size:12px;"><strong>Event/Sponsorship start date (if known):</strong></font>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="20">&nbsp;</td>
+<td><font style="font-family: sans-serif; font-size:12px;">[start_date]</font></td>
+</tr>
+<tr bgcolor="#EAF2FA">
+<td colspan="2"><font style="font-family: sans-serif; font-size:12px;"><strong>Event/Sponsorship end date (if known):</strong></font>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="20">&nbsp;</td>
+<td><font style="font-family: sans-serif; font-size:12px;">[end_date]</font></td>
+</tr>
+<tr bgcolor="#EAF2FA">
+<td colspan="2"><font style="font-family: sans-serif; font-size:12px;"><strong>A. Total Expected Income (donations, pledges, auction/ticket sales, etc.)</strong></font>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="20">&nbsp;</td>
+<td><font style="font-family: sans-serif; font-size:12px;">[expected_income]</font></td>
+</tr>
+<tr bgcolor="#EAF2FA">
+<td colspan="2"><font style="font-family: sans-serif; font-size:12px;"><strong>B. Expenses* (costs such as: advertising, rentals, food, etc.)</strong></font>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="20">&nbsp;</td>
+<td><font style="font-family: sans-serif; font-size:12px;">[expected_expenses]</font>
+</td>
+</tr>
+<tr bgcolor="#EAF2FA">
+<td colspan="2"><font style="font-family: sans-serif; font-size:12px;"><strong>C. Anitcipated (income minus expenses)</strong></font>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="20">&nbsp;</td>
+<td><font style="font-family: sans-serif; font-size:12px;">[anticipated]</font></td>
+</tr>
+<tr bgcolor="#EAF2FA">
+<td colspan="2"><font style="font-family: sans-serif; font-size:12px;"><strong>D. Please indicate (percentage or specific dollar amount) the portion of proceeds being donated to Wellspring:</strong></font>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="20">&nbsp;</td>
+<td><font style="font-family: sans-serif; font-size:12px;">[percentage]</font></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,338 @@
+<style>
+input[type=radio].custom {
+  display:none;
+}
+input[type=radio].custom+label {
+  margin-bottom:0
+}
+.green {
+  color:#347c30
+}
+.red {
+  color:#f04124
+}
+div.table {
+  display: table;
+  table-layout: auto;
+}
+div.table-row {
+  display: table-row;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+div.table-cell {
+  display: table-cell;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  color: #5a5a5a
+}
+div.main-question {
+  border-top: 2px solid;
+}
+div.main-question div:first-child {
+  font-weight: bold;
+}
+ul {
+  padding: 10px;
+}
+li {
+  list-style-position: outside;
+}
+</style>
+
+<strong>The Physical Activity Readiness Questionnaire for Everyone</strong>
+
+Regular physical activity is fun and healthy, and more people should become more physically active every day of the week. Being more physically active is very safe for MOST people. This questionnaire will tell you whether it is necessary for you to seek further advice from your doctor OR a qualified exercise professional before becoming more physically active.
+
+<h4>SECTION 1 - GENERAL HEALTH</h4>
+
+Please read the 7 questions below carefully and answer each one honestly: check YES or NO.
+
+<div class="table">
+  <div class="table-row">
+    <div class="table-cell">1. Has your doctor ever said that you have a heart condition OR high blood pressure?</div>
+    <div class="table-cell" style="width: 90px;"><input type="radio" name="heart_condition" value="yes" id="heart_condition_yes" class="custom"><label for="heart_condition_yes"><span></span> Yes</label></div>
+    <div class="table-cell" style="width: 90px;"><input type="radio" name="heart_condition" value="no" id="heart_condition_no" class="custom"><label for="heart_condition_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row">
+    <div class="table-cell">2. Do you feel pain in your chest at rest, during your daily activities of living, OR when you do physical activity?</div>
+    <div class="table-cell"><input type="radio" name="chest_pain" value="yes" id="chest_pain_yes" class="custom"><label for="chest_pain_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="chest_pain" value="no" id="chest_pain_no" class="custom"><label for="chest_pain_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row">
+    <div class="table-cell">3. Do you lose balance because of dizziness OR have you lost consciousness in the last 12 months? Please answer NO if your dizziness was associated with over-breathing (including during vigorous exercise).</div>
+    <div class="table-cell"><input type="radio" name="dizziness_lost_consciouness" value="yes" id="dizziness_lost_consciouness_yes" class="custom"><label for="dizziness_lost_consciouness_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="dizziness_lost_consciouness" value="no" id="dizziness_lost_consciouness_no" class="custom"><label for="dizziness_lost_consciouness_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row">
+    <div class="table-cell">4. Have you ever been diagnosed with another chronic medical condition (other than heart disease or high blood pressure)?<br>Please note that if you have ever been diagnosed with cancer (of any kind) you must answer "YES"</div>
+    <div class="table-cell"><input type="radio" name="chronical_medical_condition" value="yes" id="chronical_medical_condition_yes" class="custom"><label for="chronical_medical_condition_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="chronical_medical_condition" value="no" id="chronical_medical_condition_no" class="custom"><label for="chronical_medical_condition_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row">
+    <div class="table-cell">5. Are you currently taking prescribed medications for a chronic medical condition?</div>
+    <div class="table-cell"><input type="radio" name="prescribed_medications" value="yes" id="prescribed_medications_yes" class="custom"><label for="prescribed_medications_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="prescribed_medications" value="no" id="prescribed_medications_no" class="custom"><label for="prescribed_medications_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row">
+    <div class="table-cell">6. Do you have a bone or joint problem that could be made worse by becoming more physically active? Please answer NO if you had a joint problem in the past, but it does not limit your current ability to be physically active. For example, knee, ankle, shoulder or other.</div>
+    <div class="table-cell"><input type="radio" name="bone_joint_problems" value="yes" id="bone_joint_problems_yes" class="custom"><label for="bone_joint_problems_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="bone_joint_problems" value="no" id="bone_joint_problems_no" class="custom"><label for="bone_joint_problems_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row">
+    <div class="table-cell">7. Has your doctor ever said that you should only do medically supervised physical activity?</div>
+    <div class="table-cell"><input type="radio" name="medically_supervised_activity" value="yes" id="medically_supervised_activity_yes" class="custom"><label for="medically_supervised_activity_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="medically_supervised_activity" value="no" id="medically_supervised_activity_no" class="custom"><label for="medically_supervised_activity_no"><span></span> No</label></div>
+  </div>
+</div><br>
+
+<span class="green"><strong>If you answered NO to all of the questions above, you are cleared for physical activity. Go to Section 3 to sign the form. You do not need to complete Section 2.</strong></span>
+
+<ul>
+  <li>Start becoming much more physically active – start slowly and build up gradually.</li>
+  <li>Follow the Canadian Physical Activity Guidelines for your age (www.csep.ca/guidelines).</li>
+  <li>You may take part in a health and fitness appraisal.</li>
+  <li>If you have any further questions, contact a qualified exercise professional such as a CSEP Certified Exercise Physiologist® (CSEP-CEP) or CSEP Certified Personal Trainer® (CSEP-CPT).</li>
+  <li>If you are over the age of 45 yrs. and NOT accustomed to regular vigorous physical activity, please consult a qualified exercise professional (CSEP-CEP) before engaging in maximal effort exercise.</li>
+</ul>
+
+<span class="red"><strong>If you answered YES to one or more of the questions above, please GO TO SECTION 2.</strong></span>
+
+<strong>Delay becoming more active if:</strong>
+<ul>
+  <li>You are not feeling well because of a temporary illness such as a cold or fever – wait until you feel better</li>
+  <li>You are pregnant – talk to your health care practitioner, your physician, a qualified exercise professional, and/or complete the PARmed-X for Pregnancy before becoming more physically active OR</li>
+  <li>Your health changes – please answer the questions on Section 2 of this document and/or talk to your doctor or qualified exercise professional (CSEP-CEP or CSEP-CPT) before continuing with any physical activity programme.</li>
+</ul>
+
+<h4>SECTION 2 - CHRONIC MEDICAL CONDITIONS</h4>
+
+Please read the questions below carefully and answer each one honestly: check YES or NO.
+
+<div class="table">
+  <div class="table-row main-question">
+    <div class="table-cell">1. Do you have Arthritis, Osteoporosis, or Back Problems?</div>
+    <div class="table-cell" style="width: 90px;"><input type="radio" name="section2_1" value="yes" id="1_yes" class="custom"><label for="1_yes"><span></span> Yes</label><br>answer questions 1a-1c</div>
+    <div class="table-cell" style="width: 90px;"><input type="radio" name="section2_1" value="no" id="1_no" class="custom"><label for="1_no"><span></span> No</label><br>go to question 2</div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">1a. Do you have difficulty controlling your condition with medications or other physician-prescribed therapies? (Answer NO if you are not currently taking medications or other treatments)</div>
+    <div class="table-cell"><input type="radio" name="section2_1a" value="yes" id="1a_yes" class="custom"><label for="1a_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_1a" value="no" id="1a_no" class="custom"><label for="1a_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">1b. Do you have joint problems causing pain, a recent fracture or fracture caused by osteoporosis or cancer, displaced vertebra (e.g., spondylolisthesis), and/or spondylolysis/pars defect (a crack in the bony ring on the back of the spinal column)?</div>
+    <div class="table-cell"><input type="radio" name="section2_1b" value="yes" id="1b_yes" class="custom"><label for="1b_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_1b" value="no" id="1b_no" class="custom"><label for="1b_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">1c. Have you had steroid injections or taken steroid tablets regularly for more than 3 months?</div>
+    <div class="table-cell"><input type="radio" name="section2_1c" value="yes" id="1c_yes" class="custom"><label for="1c_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_1c" value="no" id="1c_no" class="custom"><label for="1c_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row main-question">
+    <div class="table-cell">2. Do you have or have you had cancer of any kind?</div>
+    <div class="table-cell"><input type="radio" name="section2_2" value="yes" id="2_yes" class="custom"><label for="2_yes"><span></span> Yes</label><br>answer questions 2a-2b</div>
+    <div class="table-cell"><input type="radio" name="section2_2" value="no" id="2_no" class="custom"><label for="2_no"><span></span> No</label><br>go to question 3</div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">2a. Does your cancer diagnosis include any of the following types: lung/bronchogenic, multiple myeloma (cancer of plasma cells), head, and neck?</div>
+    <div class="table-cell"><input type="radio" name="section2_2a" value="yes" id="2a_yes" class="custom"><label for="2a_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_2a" value="no" id="2a_no" class="custom"><label for="2a_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">2b. Are you currently receiving cancer therapy (such as chemotherapy or radiotherapy)?</div>
+    <div class="table-cell"><input type="radio" name="section2_2b" value="yes" id="2b_yes" class="custom"><label for="2b_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_2b" value="no" id="2b_no" class="custom"><label for="2b_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row main-question">
+    <div class="table-cell">3. Do you have Heart Disease or Cardiovascular Disease? This includes Coronary Artery Disease, High Blood Pressure, Heart Failure, Diagnosed Abnormality of Heart Rhythm</div>
+    <div class="table-cell"><input type="radio" name="section2_3" value="yes" id="3_yes" class="custom"><label for="3_yes"><span></span> Yes</label><br>answer questions 3a-3e</div>
+    <div class="table-cell"><input type="radio" name="section2_3" value="no" id="3_no" class="custom"><label for="3_no"><span></span> No</label><br>go to question 4</div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">3a. Do you have difficulty controlling your condition with medications or other physician-prescribed therapies? (Answer NO if you are not currently taking medications or other treatments)</div>
+    <div class="table-cell"><input type="radio" name="section2_3a" value="yes" id="3a_yes" class="custom"><label for="3a_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_3a" value="no" id="3a_no" class="custom"><label for="3a_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">3b. Do you have an irregular heart beat that requires medical management? (e.g. atrial fibrillation, premature ventricular contraction)</div>
+    <div class="table-cell"><input type="radio" name="section2_3b" value="yes" id="3b_yes" class="custom"><label for="3b_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_3b" value="no" id="3b_no" class="custom"><label for="3b_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">3c. Do you have chronic heart failure?</div>
+    <div class="table-cell"><input type="radio" name="section2_3c" value="yes" id="3c_yes" class="custom"><label for="3c_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_3c" value="no" id="3c_no" class="custom"><label for="3c_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">3d. Do you have a resting blood pressure equal to or greater than 160/90 mmHg with or without medication? (Answer YES if you do not know your resting blood pressure)</div>
+    <div class="table-cell"><input type="radio" name="section2_3d" value="yes" id="3d_yes" class="custom"><label for="3d_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_3d" value="no" id="3d_no" class="custom"><label for="3d_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">3e. Do you have diagnosed coronary artery (cardiovascular) disease and have not participated in regular physical activity in the last 2 months?</div>
+    <div class="table-cell"><input type="radio" name="section2_3e" value="yes" id="3e_yes" class="custom"><label for="3e_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_3e" value="no" id="3e_no" class="custom"><label for="3e_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row main-question">
+    <div class="table-cell">4. Do you have any Metabolic Conditions? This includes Type 1 Diabetes, Type 2 Diabetes, Pre-Diabetes</div>
+    <div class="table-cell"><input type="radio" name="section2_4" value="yes" id="4_yes" class="custom"><label for="4_yes"><span></span> Yes</label><br>answer questions 4a-4c</div>
+    <div class="table-cell"><input type="radio" name="section2_4" value="no" id="4_no" class="custom"><label for="4_no"><span></span> No</label><br>go to question 5</div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">4a. Is your blood sugar often above 13.0 mmol/L? (Answer YES if you are not sure)</div>
+    <div class="table-cell"><input type="radio" name="section2_4a" value="yes" id="4a_yes" class="custom"><label for="4a_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_4a" value="no" id="4a_no" class="custom"><label for="4a_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">4b. Do you have any signs or symptoms of diabetes complications such as heart or vascular disease and/or complications affecting your eyes, kidneys, and the sensation in your toes and feet?</div>
+    <div class="table-cell"><input type="radio" name="section2_4b" value="yes" id="4b_yes" class="custom"><label for="4b_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_4b" value="no" id="4b_no" class="custom"><label for="4b_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">4c. Do you have other metabolic conditions (such as thyroid disorders, pregnancyrelated diabetes, chronic kidney disease, liver problems)?</div>
+    <div class="table-cell"><input type="radio" name="section2_4c" value="yes" id="4c_yes" class="custom"><label for="4c_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_4c" value="no" id="4c_no" class="custom"><label for="4c_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row main-question">
+    <div class="table-cell">5. Do you have any Mental Health Problems or Learning Difficulties? This includes Alzheimer’s, Dementia, Depression, Anxiety Disorder, Eating Disorder, Psychotic Disorder, Intellectual Disability, Down Syndrome)</div>
+    <div class="table-cell"><input type="radio" name="section2_5" value="yes" id="5_yes" class="custom"><label for="5_yes"><span></span> Yes</label><br>answer questions 5a-5b</div>
+    <div class="table-cell"><input type="radio" name="section2_5" value="no" id="5_no" class="custom"><label for="5_no"><span></span> No</label><br>go to question 6</div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">5a. Do you have difficulty controlling your condition with medications or other physician-prescribed therapies? (Answer NO if you are not currently taking medications or other treatments)</div>
+    <div class="table-cell"><input type="radio" name="section2_5a" value="yes" id="5a_yes" class="custom"><label for="5a_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_5a" value="no" id="5a_no" class="custom"><label for="5a_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">5b. Do you also have back problems affecting nerves or muscles?</div>
+    <div class="table-cell"><input type="radio" name="section2_5b" value="yes" id="5b_yes" class="custom"><label for="5b_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_5b" value="no" id="5b_no" class="custom"><label for="5b_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row main-question">
+    <div class="table-cell">6. Do you have a Respiratory Disease? This includes Chronic Obstructive Pulmonary Disease, Asthma, Pulmonary High Blood Pressure</div>
+    <div class="table-cell"><input type="radio" name="section2_6" value="yes" id="6_yes" class="custom"><label for="6_yes"><span></span> Yes</label><br>answer questions 6a-6d</div>
+    <div class="table-cell"><input type="radio" name="section2_6" value="no" id="6_no" class="custom"><label for="6_no"><span></span> No</label><br>go to question 7</div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">6a. Do you have difficulty controlling your condition with medications or other physician-prescribed therapies? (Answer NO if you are not currently taking medications or other treatments)</div>
+    <div class="table-cell"><input type="radio" name="section2_6a" value="yes" id="6a_yes" class="custom"><label for="6a_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_6a" value="no" id="6a_no" class="custom"><label for="6a_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">6b. Has your doctor ever said your blood oxygen level is low at rest or during exercise and/or that you require supplemental oxygen therapy?</div>
+    <div class="table-cell"><input type="radio" name="section2_6b" value="yes" id="6b_yes" class="custom"><label for="6b_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_6b" value="no" id="6b_no" class="custom"><label for="6b_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">6c. If asthmatic, do you currently have symptoms of chest tightness, wheezing, laboured breathing, consistent cough (more than 2 days/week), or have you used your rescue medication more than twice in the last week?</div>
+    <div class="table-cell"><input type="radio" name="section2_6c" value="yes" id="6c_yes" class="custom"><label for="6c_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_6c" value="no" id="6c_no" class="custom"><label for="6c_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">6d. Has your doctor ever said you have high blood pressure in the blood vessels of your lungs?</div>
+    <div class="table-cell"><input type="radio" name="section2_6d" value="yes" id="6d_yes" class="custom"><label for="6d_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_6d" value="no" id="6d_no" class="custom"><label for="6d_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row main-question">
+    <div class="table-cell">7. Do you have a Spinal Cord Injury? This includes Tetraplegia and Paraplegia</div>
+    <div class="table-cell"><input type="radio" name="section2_7" value="yes" id="7_yes" class="custom"><label for="7_yes"><span></span> Yes</label><br>answer questions 7a-7c</div>
+    <div class="table-cell"><input type="radio" name="section2_7" value="no" id="7_no" class="custom"><label for="7_no"><span></span> No</label><br>go to question 8</div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">7a. Do you have difficulty controlling your condition with medications or other physician-prescribed therapies? (Answer NO if you are not currently taking medications or other treatments)</div>
+    <div class="table-cell"><input type="radio" name="section2_7a" value="yes" id="7a_yes" class="custom"><label for="7a_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_7a" value="no" id="7a_no" class="custom"><label for="7a_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">7b. Do you commonly exhibit low resting blood pressure significant enough to cause dizziness, light-headedness, and/or fainting?</div>
+    <div class="table-cell"><input type="radio" name="section2_7b" value="yes" id="7b_yes" class="custom"><label for="7b_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_7b" value="no" id="7b_no" class="custom"><label for="7b_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">7c. Has your physician indicated that you exhibit sudden bouts of high blood pressure (known as Autonomic Dysreflexia)?</div>
+    <div class="table-cell"><input type="radio" name="section2_7c" value="yes" id="7c_yes" class="custom"><label for="7c_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_7c" value="no" id="7c_no" class="custom"><label for="7c_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row main-question">
+    <div class="table-cell">8. Have you had a Stroke? This includes Transient Ischemic Attack (TIA) or Cerebrovascular Event</div>
+    <div class="table-cell"><input type="radio" name="section2_8" value="yes" id="8_yes" class="custom"><label for="8_yes"><span></span> Yes</label><br>answer questions 8a-8c</div>
+    <div class="table-cell"><input type="radio" name="section2_8" value="no" id="8_no" class="custom"><label for="8_no"><span></span> No</label><br>go to question 9</div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">8a. Do you have difficulty controlling your condition with medications or other physician-prescribed therapies? (Answer NO if you are not currently taking medications or other treatments)</div>
+    <div class="table-cell"><input type="radio" name="section2_8a" value="yes" id="8a_yes" class="custom"><label for="8a_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_8a" value="no" id="8a_no" class="custom"><label for="8a_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">8b. Do you have any impairment in walking or mobility?</div>
+    <div class="table-cell"><input type="radio" name="section2_8b" value="yes" id="8b_yes" class="custom"><label for="8b_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_8b" value="no" id="8b_no" class="custom"><label for="8b_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">8c. Have you experienced a stroke or impairment in nerves or muscles in the past 6 months?</div>
+    <div class="table-cell"><input type="radio" name="section2_8c" value="yes" id="8c_yes" class="custom"><label for="8c_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_8c" value="no" id="8c_no" class="custom"><label for="8c_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row main-question">
+    <div class="table-cell">9. Do you have any other medical condition not listed above or do you live with two chronic conditions?</div>
+    <div class="table-cell"><input type="radio" name="section2_9" value="yes" id="9_yes" class="custom"><label for="9_yes"><span></span> Yes</label><br>answer questions 9a-9c</div>
+    <div class="table-cell"><input type="radio" name="section2_9" value="no" id="9_no" class="custom"><label for="9_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">9a. Have you experienced a blackout, fainted, or lost consciousness as a result of a head injury within the last 12 months OR have you had a diagnosed concussion within the last 12 months?</div>
+    <div class="table-cell"><input type="radio" name="section2_9a" value="yes" id="9a_yes" class="custom"><label for="9a_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_9a" value="no" id="9a_no" class="custom"><label for="9a_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">9b. Do you have a medical condition that is not listed (such as epilepsy, neurological conditions, kidney problems)?</div>
+    <div class="table-cell"><input type="radio" name="section2_9b" value="yes" id="9b_yes" class="custom"><label for="9b_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_9b" value="no" id="9b_no" class="custom"><label for="9b_no"><span></span> No</label></div>
+  </div>
+  <div class="table-row sub-question">
+    <div class="table-cell">9c. Do you currently live with two chronic conditions?</div>
+    <div class="table-cell"><input type="radio" name="section2_9c" value="yes" id="9c_yes" class="custom"><label for="9c_yes"><span></span> Yes</label></div>
+    <div class="table-cell"><input type="radio" name="section2_9c" value="no" id="9c_no" class="custom"><label for="9c_no"><span></span> No</label></div>
+  </div>
+</div>
+
+<span class="green"><strong>If you answered NO to all of the follow-up questions about your medical condition, you are ready to become more physically active:</strong></span>
+
+<ul>
+  <li>It is advised that you consult a qualified exercise professional (e.g., a CSEP-CEP or CSEP-CPT) to help you develop a safe and effective physical activity plan to meet your health needs.</li>
+  <li>You are encouraged to start slowly and build up gradually – 20-60 min. of low- to moderate-intensity exercise, 3-5 days per week including aerobic and muscle strengthening exercises.</li>
+  <li>As you progress, you should aim to accumulate 150 minutes or more of moderate-intensity physical activity per week.</li>
+  <li>If you are over the age of 45 yrs. and NOT accustomed to regular vigorous physical activity, please consult a qualified exercise professional (CSEP-CEP) before engaging in maximal effort exercise.</li>
+</ul>
+
+<span class="red"><strong>If you answered YES to one or more of the follow-up questions about your medical condition:</strong></span>
+
+<ul>
+  <li>You should seek further information from a licensed health care professional before becoming more physically active or engaging in a fitness appraisal and/or visit a or qualified exercise professional (CSEP-CEP) for further information.</li>
+</ul>
+
+<strong>Delay becoming more active if:</strong>
+
+<ul>
+  <li>You are not feeling well because of a temporary illness such as a cold or fever – wait until you feel better</li>
+  <li>You are pregnant - talk to your health care practitioner, your physician, a qualified exercise profesional, and/or complete the PARmed-X for Pregnancy before becoming more physically active OR</li>
+  <li>Your health changes - please talk to your doctor or qualified exercise professional (CSEP-CEP) before continuing with any physical activity programme.</li>
+</ul>
+
+<h4>SECTION 3 - DECLARATION</h4>
+<ul>
+  <li>You are encouraged to photocopy the PAR-Q+. You must use the entire questionnaire and NO changes are permitted.</li>
+  <li>The Canadian Society for Exercise Physiology, the PAR-Q+ Collaboration, and their agents assume no liability for persons who undertake physical activity. If in doubt after completing the questionnaire, consult your doctor prior to physical activity.</li>
+  <li>If you are less than the legal age required for consent or require the assent of a care provider, your parent, guardian or care provider must also sign this form.</li>
+</ul>
+
+Please read and sign the declaration below:
+
+<p><strong>I, the undersigned, have read, understood to my full satisfaction and completed this questionnaire. I acknowledge that this physical activity clearance is valid for a maximum of 12 months from the date it is completed and becomes invalid if my condition changes. I also acknowledge that a Trustee (such as my employer, community/fitness centre, health care provider, or other designate) may retain a copy of this form for their records. In these instances, the Trustee will be required to adhere to local, national, and international guidelines regarding the storage of personal health information ensuring that they maintain the privacy of the information and do not misuse or wrongfully disclose such information.</strong></p>
+
+Name: [text* name]
+Witness: [text witness]
+Parent/Guardian/Care Provider: [text parent]
+
+[submit class:button-lg class:btn-green class:registration_finish class:custom_registration_submit class:right "Submit"]

@@ -1,0 +1,329 @@
+<style>
+div.table {
+  display: table;
+  table-layout: auto;
+}
+div.tr {
+  display: table-row;
+}
+div.td {
+  display: table-cell
+}
+section.registration ul.tabs {
+  left: 0;
+  top: 0;
+}
+section.registration ul.tabs li {
+  width: auto;
+}
+input.registration_finish {
+  font-family: Lato,sans-serif;
+  font-size: 1.1875rem;
+  line-height: inherit;
+}
+.registration-buttons {
+  height: 58px;
+}
+</style>
+
+<div id="tabs">
+  <section class="registration">
+  <ul class="tabs">
+    <li class="tab-title step1"><a href="#section1">Personal details</a></li>
+    <li class="tab-title step2"><a href="#section2">Energy volunteer</a></li>
+    <li class="tab-title step3"><a href="#section3">Exercise volunteer</a></li>
+  </ul>
+  </section>
+
+  <div id="section1">
+<h3>SECTION ONE</h3>
+
+<h4>1. Personal details</h4>
+<div class="table">
+  <div class="row"><div class="columns">
+    <div class="fl">Name *<br>[text* name class:form400]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">Address *<br>[text* address class:form295]</div>
+    <div class="fl">City *<br>[text* city class:form135]</div>
+    <div class="fl">Postal Code *<br>[text* postalcode class:form135]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">Home Phone *<br>[text* phone class:form135]</div>
+    <div class="fl">Work<Br>[text work_phone class:form135]</div>
+    <div class="fl">Cell<br>[text cell_phone class:form135]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">Email<br>[text* email class:form295]</div>
+    <div class="fl">Preferred method of contact<br>[select preferred_contact class:form135 "email" "phone"]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">Emergency contact<br>[text* emergency_contact_name class:form400]</div>
+    <div class="fl">Phone number<br>[text* emergency_contact_phone class:form135]</div>
+  </div></div>
+</div>
+
+<h4>2. Please indicate the area(s) where you are interested in volunteering service</h4>
+
+While Wellspring has a number of volunteer roles, we welcome volunteers with a diversity of skills and experience to help out with a variety of areas that may not be listed here. If you are interested in more than one area, please circle the role that most interests you. Please note that volunteers will be asked to provide us with an acceptable Police Record Check for several of the volunteer roles listed below.
+
+<section class="volunteer">
+<input type="checkbox" name="roles[]" value="Peer Support" id="role_peer_support" class="custom"><label class="purple" for="role_peer_support"><span></span> Peer Support <span class="byline">(must have a cancer experience or have bene a caregiver to a cancer patient and at least 18 years of age)</span></label><input type="checkbox" name="roles[]" value="Reception" id="role_reception" class="custom"><label class="purple" for="role_reception"><span></span> Reception</label><input type="checkbox" name="roles[]" value="Community Interface" id="role_community_interface" class="custom"><label class="purple" for="role_community_interface"><span></span> Community Interface</label><input type="checkbox" name="roles[]" value="Look Good Feel Good" id="role_look_good_feel_good" class="custom"><label class="purple" for="role_look_good_feel_good"><span></span> Look Good Feel Good</label><input type="checkbox" name="roles[]" value="Energy Volunteer" id="role_energy_volunteer" class="custom"><label class="purple" for="role_energy_volunteer"><span></span> Energy Volunteer <span class="byline">(Therapeutic Touch, Reiki Master, Healing Touch)</span></label><input type="checkbox" name="roles[]" value="Child Minding" id="role_child_minding" class="custom"><label class="purple" for="role_child_minding"><span></span> Child Minding</label><input type="checkbox" name="roles[]" value="Tour Guide/Host" id="role_tour_guide_host" class="custom"><label class="purple" for="role_tour_guide_host"><span></span> Tour Guide/Host</label><input type="checkbox" name="roles[]" value="Program Support Volunteer" id="role_program_support_volunteer" class="custom"><label class="purple" for="role_program_support_volunteer"><span></span> Program Support Volunteer <span class="byline">(Creative/Expressive Arts Programs, Physical Activity Programs/Coping Skills Programs, Professional Speaker's Series/Informational Programs)</span></label><input type="checkbox" name="roles[]" value="Fund Raising/Special Events" id="role_fund_raising_special_events" class="custom"><label class="purple" for="role_fund_raising_special_events"><span></span> Fund Raising/Special Events</label><input type="checkbox" name="roles[]" value="General Duties" id="role_general_duties" class="custom"><label class="purple" for="role_general_duties"><span></span> General Duties</label><input type="checkbox" name="roles[]" value="Administrative Support" id="role_addministrative_support" class="custom"><label class="purple" for="role_addministrative_support"><span></span> Administrative Support</label><input type="checkbox" name="roles[]" value="Other" id="role_other" class="custom"><label class="purple" for="role_other"><span></span> Other</label>
+</section>
+
+<h4>3. Please indicate your availability</h4>
+
+<div class="table">
+  <div class="tr">
+    <div class="td"><input type="checkbox" name="availability[]" value="Monday" id="availability_monday" class="custom"><label for="availability_monday" class="purple"><span></span> Monday</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Monday morning" id="availability_monday_morning" class="custom"><label for="availability_monday_morning" class="purple"><span></span> Morning</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Monday afternoon" id="availability_monday_afternoon" class="custom"><label for="availability_monday_afternoon" class="purple"><span></span> Afternoon</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Monday evening" id="availability_monday_evening" class="custom"><label for="availability_monday_evening" class="purple"><span></span> Evening</label></div>
+  </div>
+  <div class="tr">
+    <div class="td"><input type="checkbox" name="availability[]" value="Tuesday" id="availability_tuesday" class="custom"><label for="availability_tuesday" class="purple"><span></span> Tuesday</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Tuesday morning" id="availability_tuesday_morning" class="custom"><label for="availability_tuesday_morning" class="purple"><span></span> Morning</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Tuesday afternoon" id="availability_tuesday_afternoon" class="custom"><label for="availability_tuesday_afternoon" class="purple"><span></span> Afternoon</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Tuesday evening" id="availability_tuesday_evening" class="custom"><label for="availability_tuesday_evening" class="purple"><span></span> Evening</label></div>
+  </div>
+  <div class="tr">
+    <div class="td"><input type="checkbox" name="availability[]" value="Wednesday" id="availability_wednesday" class="custom"><label for="availability_wednesday" class="purple"><span></span> Wednesday</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Wednesday morning" id="availability_wednesday_morning" class="custom"><label for="availability_wednesday_morning" class="purple"><span></span> Morning</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Wednesday afternoon" id="availability_wednesday_afternoon" class="custom"><label for="availability_wednesday_afternoon" class="purple"><span></span> Afternoon</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Wednesday evening" id="availability_wednesday_evening" class="custom"><label for="availability_wednesday_evening" class="purple"><span></span> Evening</label></div>
+  </div>
+  <div class="tr">
+    <div class="td"><input type="checkbox" name="availability[]" value="Thursday" id="availability_thursday" class="custom"><label for="availability_thursday" class="purple"><span></span> Thursday</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Thursday morning" id="availability_thursday_morning" class="custom"><label for="availability_thursday_morning" class="purple"><span></span> Morning</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Thursday afternoon" id="availability_thursday_afternoon" class="custom"><label for="availability_thursday_afternoon" class="purple"><span></span> Afternoon</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Thursday evening" id="availability_thursday_evening" class="custom"><label for="availability_thursday_evening" class="purple"><span></span> Evening</label></div>
+  </div>
+  <div class="tr">
+    <div class="td"><input type="checkbox" name="availability[]" value="Friday" id="availability_friday" class="custom"><label for="availability_friday" class="purple"><span></span> Friday</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Friday morning" id="availability_friday_morning" class="custom"><label for="availability_friday_morning" class="purple"><span></span> Morning</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Friday afternoon" id="availability_friday_afternoon" class="custom"><label for="availability_friday_afternoon" class="purple"><span></span> Afternoon</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Friday evening" id="availability_friday_evening" class="custom"><label for="availability_friday_evening" class="purple"><span></span> Evening</label></div>
+  </div>
+  <div class="tr">
+    <div class="td"><input type="checkbox" name="availability[]" value="Saturday" id="availability_saturday" class="custom"><label for="availability_saturday" class="purple"><span></span> Saturday</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Saturday morning" id="availability_saturday_morning" class="custom"><label for="availability_saturday_morning" class="purple"><span></span> Morning</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Saturday afternoon" id="availability_saturday_afternoon" class="custom"><label for="availability_saturday_afternoon" class="purple"><span></span> Afternoon</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Saturday evening" id="availability_saturday_evening" class="custom"><label for="availability_saturday_evening" class="purple"><span></span> Evening</label></div>
+  </div>
+  <div class="tr">
+    <div class="td"><input type="checkbox" name="availability[]" value="Sunday" id="availability_sunday" class="custom"><label for="availability_sunday" class="purple"><span></span> Sunday</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Sunday morning" id="availability_sunday_morning" class="custom"><label for="availability_sunday_morning" class="purple"><span></span> Morning</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Sunday afternoon" id="availability_sunday_afternoon" class="custom"><label for="availability_sunday_afternoon" class="purple"><span></span> Afternoon</label></div>
+    <div class="td"><input type="checkbox" name="availability[]" value="Sunday evening" id="availability_sunday_evening" class="custom"><label for="availability_sunday_evening" class="purple"><span></span> Evening</label></div>
+  </div>
+</div>
+
+<h4>4. Have you volunteered for other organizations?</h4>
+
+<input type="radio" name="volunteer_other_organizations" value="yes" id="volunteer_other_organizations_yes" class="custom"><label for="volunteer_other_organizations_yes"><span></span> Yes</label> <input type="radio" name="volunteer_other_organizations" value="no" id="volunteer_other_organizations_no" class="custom"><label for="volunteer_other_organizations_no"><span></span> No</label>
+
+If so, where and what were your roles and duties?
+[textarea volunteer_other_organizations_roles ]
+
+<h4>5. What special skills or experiences, education do you have that you feel would be helpful at Wellspring?</h4>
+[textarea skills_experiences]
+
+<h4>6. Spoken languages</h4>
+
+<div class="table">
+  <div class="row"><div class="columns">
+    <div class="fl"><input type="checkbox" name="languages[]" value="English" id="languages_english" class="custom"><label for="languages_english"><span></span> English</label></div>
+    <div class="fl"><input type="checkbox" name="languages[]" value="French" id="languages_french" class="custom"><label for="languages_french"><span></span> French</label></div>
+    <div class="fl">Other: [text languages_other class:form135]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">Are you willing to offer service in this language?</div>
+    <div class="fl"><input type="radio" name="language_service" value="yes" id="language_service_yes" class="custom"><label for="language_service_yes" class="purple"><span></span> Yes</label></div>
+    <div class="fl"><input type="radio" name="language_service" value="no" id="language_service_no" class="custom"><label for="language_service_no" class="purple"><span></span> No</label></div>
+  </div></div>
+</div>
+
+<h4>7. What do you hope to gain through your volunteer experience at Wellspring?</h4>
+[textarea experience_gain]
+
+<h4>8. Has cancer touched your life?</h4>
+<input type="radio" name="cancer_touched" value="yes" id="cancer_touched_yes" class="custom"><label for="cancer_touched_yes" class="purple"><span></span> Yes</label> <input type="radio" name="cancer_touched" value="no" id="cancer_touched_no" class="custom"><label for="cancer_touched_no" class="purple"><span></span> No</label>
+
+<h4>9. Please explain further if you wish:</h4>
+[textarea cancer_explanation]
+
+<h4>10. Please provide two (2) references: Do not include family members.</h4>
+
+<div class="table">
+  <div class="row"><div class="columns">
+    <div class="fl">Name and title<br>[text reference1_name class:form295]</div>
+    <div class="fl">Name and title<br>[text reference2_name class:form295]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">Phone number<br>[text reference1_phone class:form295]</div>
+    <div class="fl">Phone number<br>[text reference2_phone class:form295]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">Email<br>[text reference1_email class:form295]</div>
+    <div class="fl">Email<br>[text reference2_email class:form295]</div>
+  </div></div>
+</div>
+
+Wellspring Edmonton has my permission to contact the above references:
+<input type="radio" name="reference_contact_allowed" value="yes" id="reference_contact_allowed_yes" class="custom"><label for="reference_contact_allowed_yes" class="purple"><span></span> Yes</label><input type="radio" name="reference_contact_allowed" value="no" id="reference_contact_allowed_no" class="custom"><label for="reference_contact_allowed_no" class="purple"><span></span> No</label>
+
+<h4>11. I consent to having a Police Information Check, including Vulnerable Sector Search, as part of this application</h4>
+<input type="radio" name="police_check" value="yes" id="police_check_yes" class="custom"><label for="police_check_yes" class="purple"><span></span> Yes</label> <input type="radio" name="police_check" value="no" id="police_check_no" class="custom"><label for="police_check_no" class="purple"><span></span> No</label>
+  
+  </div>
+  <div id="section2">
+
+<h3>SECTION TWO: COMPLETE ONLY IF YOU ARE APPLYING TO BE AN ENERGY VOLUNTEER</h3>
+
+<h4>1. All Energy Practitioners require appropriate Certification, Registration and Professional Liability Insurance.</h4>
+Insurance Company: [text energy_insurance_company]
+
+<h4>2. Please indicate the certifications/qualifications you currently hold for Energy Therapies which you are interested in offering at Wellspring Edmonton volunteer sessions:</h4>
+
+<input type="checkbox" name="energy_certifications[]" value="Reiki" id="energy_certifications_reiki" class="custom"><label for="energy_certifications_reiki" class="purple"><span></span> Reiki</label><input type="checkbox" name="energy_certifications[]" value="Therapeutic Touch" id="energy_certifications_therapeutic_touch" class="custom"><label for="energy_certifications_therapeutic_touch" class="purple"><span></span> Therapeutic Touch</label><input type="checkbox" name="energy_certifications[]" value="Healing Touch" id="energy_certifications_healing_touch" class="custom"><label for="energy_certifications_healing_touch" class="purple"><span></span> Healing Touch</label><input type="checkbox" name="energy_certifications[]" value="Other" id="energy_certifications_other" class="custom"><label for="energy_certifications_other" class="purple"><span></span> Other</label> [text energy_certifications_other class:form295]
+
+<h4>3. Are you currently employed as a practitioner in the above?</h4>
+<input type="radio" name="energy_employed" value="yes" id="energy_employed_yes" class="custom"><label for="energy_employed_yes" class="purple"><span></span> Yes</label> <input type="radio" name="energy_employed" value="no" id="energy_employed_no" class="custom"><label for="energy_employed_no" class="purple"><span></span> No</label>
+
+<div class="table">
+  <div class="row"><div class="columns">
+    <div class="fl">If yes, what is the name of your employer?<br>[text energy_employer_name]</div>
+    <div class="fl">Phone number<br>[text energy_employer_phone class:form135]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">If not, please provide another reference?<br>[text energy_reference_name]</div>
+    <div class="fl">Phone number<br>[text energy_reference_phone class:form135]</div>
+  </div></div>
+</div>
+
+<h4>4. From your perspective, what would your commitment to Wellspring look like?</h4>
+[textarea energy_commitment]
+
+<h4>5. How many sessions/hours would you do in a day? Or a week?</h4>
+[text energy_sessions]
+
+<h4>6. What are your goals related to the Energy Work you practice?</h4>
+[text energy_goals]
+
+<h4>7. What in your experience can your Energy Work do for a person who is coping with cancer, bereavement, or care giving responsibilities?</h4>
+[textarea energy_experience]
+
+<p><strong>Please read the following Code of Ethics and Confidentiality – indicate you are in agreement by signing.</strong>
+<em>If accepted at Wellspring Edmonton, I agree to the following:</em>
+1. I will not endorse or sell products, or services.
+2. I will not promote myself or others for personal gain.
+3. I will not provide any form of additional treatment information to the client.
+<strong><em>All information learned from any client in Wellspring care will be kept in the strictest confidence and will only be shared, if appropriate, with Wellspring staff as necessary.</em></strong></p>
+
+<input type="checkbox" name="energy_code_of_ethics" value="accepted" id="energy_code_of_ethics" class="custom"><label class="purple" for="energy_code_of_ethics"><span></span> I accept these term and conditions</label>
+
+  </div>
+  <div id="section3">
+    
+<h3>SECTION THREE: COMPLETE ONLY IF YOU ARE APPLYING TO VOLUNTEER IN THE EXERCISE PROGRAM</h3>
+
+<h4>1. Education Level:</h4>
+[text exercise_education]
+
+<h4>2. Certification:</h4>
+
+<input type="checkbox" name="exercise_certifications[]" value="CEP" id="exercise_certifications_cep" class="custom"><label for="exercise_certifications_cep" class="purple"><span></span> CEP</label><input type="checkbox" name="exercise_certifications[]" value="CPT" id="exercise_certifications_CPT" class="custom"><label for="exercise_certifications_CPT" class="purple"><span></span> CPT</label>
+
+<h4>3. Other Training</h4>
+[text exercise_other_training]
+
+<h4>4. Do you presently have Professional Liability Insurance?</h4>
+
+<div class="table">
+  <div class="row"><div class="columns">
+    <div class="fl"><input type="radio" name="exercise_insurance" value="yes" id="exercise_insurance_yes" class="custom"><label for="exercise_insurance_yes" class="purple"><span></span> Yes</label></div>
+    <div class="fl"><input type="radio" name="exercise_insurance" value="no" id="exercise_insurance_no" class="custom"><label for="exercise_insurance_no" class="purple"><span></span> No</label></div>
+    <div class="fl">Company: [text exercise_insurance_company class:form290]</div>
+  </div></div>
+</div>
+
+<h4>5. Medical Oncology Knowledge – if so, please elaborate</h4>
+
+[textarea exercise_medical_oncology_knowledge]
+
+<h4>6. Do you have experience in working with persons with cancer or other clinical populations (please specify)</h4>
+
+[textarea exercise_experience] 
+ 
+<h4>7. Do you currently work as a trainer/practitioner?</h4>
+
+<div class="table">
+  <div class="row"><div class="columns">
+    <div class="fl"><input type="radio" name="exercise_trainer" value="yes" id="exercise_trainer_yes" class="custom"><label for="exercise_trainer_yes" class="purple"><span></span> Yes</label></div>
+    <div class="fl"><input type="radio" name="exercise_trainer" value="no" id="exercise_trainer_no" class="custom"><label for="exercise_trainer_no" class="purple"><span></span> No</label></div>
+    <div class="fl">Your Position: [text exercise_trainer_position class:form290]</div>
+  </div></div>
+</div>
+
+<h4>8. From your perspective, what would your volunteer commitment at Wellspring look like?</h4>
+[textarea exercise_commitment]
+
+<h4>9. Desired volunteer experience: ie: (room supervision, exercise class, individual trainer, assistant, other)</h4>
+
+[textarea exercise_desired_experience]
+
+<h4>10. Are you interested in receiving advanced training specific to work with persons with cancer?</h4>
+
+<input type="radio" name="exercise_advanced_training" value="yes" id="exercise_advanced_training_yes" class="custom"><label for="exercise_advanced_training_yes" class="purple"><span></span> Yes</label> <input type="radio" name="exercise_advanced_training" value="no" id="exercise_advanced_training_no" class="custom"><label for="exercise_advanced_training_no" class="purple"><span></span> No</label>
+
+<p><strong>Please read the following Code of Ethics and Confidentiality – indicate you are in agreement by signing.</strong>
+<em>If accepted at Wellspring Edmonton, I agree to the following:</em>
+1. I will not endorse or sell products, or services.
+2. I will not promote myself or others for personal gain.
+3. I will not provide any form of additional treatment information to the client.
+<strong><em>All information learned from any client in Wellspring care will be kept in the strictest confidence and will only be shared, if appropriate, with Wellspring staff as necessary.</em></strong></p>
+
+<input type="checkbox" name="exercise_code_of_ethics" value="accepted" id="exercise_code_of_ethics" class="custom"><label class="purple" for="exercise_code_of_ethics"><span></span> I accept these term and conditions</label>
+
+  </div>
+
+  <section class="registration"><div class="registration-buttons">
+    <a href="#" class="button-lg btn-green registration_previous">Previous</a><a href="#" class="button-lg btn-green registration_next right">Next</a><input type="submit" value="Finish" class="button-lg btn-green registration_finish right">
+  </div></section>
+</div>
+<script type='text/javascript' src='https://wellspring.ca/edmonton/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://wellspring.ca/edmonton/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+    var tabs = $("#tabs");
+    var registration_previous = $(".registration_previous");
+    var registration_next = $(".registration_next");
+    var registration_finish = $(".registration_finish");
+    tabs.tabs();
+    registration_previous.click(function () {
+        var i = tabs.tabs("option", "active");
+        tabs.tabs("option", "active", i - 1);
+        if (i == 1) {
+            $(this).hide();
+            registration_next.show();
+        } else {
+            $(this).show();
+            registration_next.show();
+            registration_finish.hide();
+        }
+    });
+    registration_next.click(function () {
+        var i = tabs.tabs("option", "active");
+        tabs.tabs("option", "active", i + 1);
+        if (i == 1) {
+            $(this).hide();
+            registration_previous.show();
+            registration_finish.show();
+        } else {
+            $(this).show();
+            registration_previous.show();
+        }
+    });
+    registration_previous.hide();
+    registration_next.show();
+    registration_finish.hide();
+</script>

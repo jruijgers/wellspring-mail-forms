@@ -1,0 +1,107 @@
+SECTION ONE
+==================================================
+Name: [name]
+Address: [address]
+City: [city]
+Postal code: [postalcode]
+Phone: [phone]
+Work phone: [work_phone]
+Cell phone: [cell_phone]
+Email: [email]
+Preferred method of contact: [preferred_contact]
+Emergency contact: [emergency_contact_name]
+  Phone: [emergency_contact_phone]
+
+Roles:
+[roles]
+
+Availability:
+[availability]
+
+Have you volunteered for other organizations: [volunteer_other_organizations]
+If so, where and what were your roles and duties:
+[volunteer_other_organizations_roles]
+
+5. What special skills or experiences, education do you have that you feel would be helpful at Wellspring?
+[skills_experiences]
+
+6. Spoken languages
+Languages: [languages] [languages_other]
+Service in language: [language_service]
+
+7. What do you hope to gain through your volunteer experience at Wellspring?
+[experience_gain]
+
+8. Has cancer touched your life? [cancer_touched]
+
+9. Please explain further if you wish:
+[cancer_explanation]
+
+10. Please provide two references
+Name: [reference1_name]
+Phone: [reference1_phone]
+Email: [reference1_email]
+
+Name: [reference2_name]
+Phone: [reference2_phone]
+Email: [reference2_email]
+
+Wellspring Edmonton has my permission to contact the above references: [reference_contact_allowed]
+
+11. I consent to having a Police Information Check, including Vulnerable Sector Search, as part of this application
+[police_check]
+
+Section 2
+==================================================
+1. All Energy Practitioners require appropriate Certification, Registration and Professional Liability Insurance.
+Insurance Company: [energy_insurance_company]
+
+2. Please indicate the certifications/qualifications you currently hold for Energy Therapies which you are interested in offering at Wellspring Edmonton volunteer sessions:
+[energy_certifications]
+[energy_certifications_other]
+
+3. Are you currently employed as a practitioner in the above? [energy_employed]
+Employer name: [energy_employer_name]
+Employer phone: [energy_employer_phone]
+Reference name: [energy_reference_name]
+Reference phone: [energy_reference_phone]
+
+4. From your perspective, what would your commitment to Wellspring look like?
+[energy_commitment]
+
+5. How many sessions/hours would you do in a day? Or a week?
+[energy_sessions]
+
+6. What are your goals related to the Energy Work you practice?
+[energy_goals]
+
+7. What in your experience can your Energy Work do for a person who is coping with cancer, bereavement, or care giving responsibilities?
+[energy_experience]
+
+Code of Ethics and Confidentiality: [energy_code_of_ethics]
+
+Section 3
+==================================================
+1. Education Level: [exercise_education]
+2. Certifications: [exercise_certifications]
+3. Other Training; [exercise_other_training]
+4. Do you presently have Professional Liability Insurance? [exercise_insurance]
+    Insurance company: [exercise_insurance_company]
+5. Medical Oncology Knowledge
+[exercise_medical_oncology_knowledge]
+
+6. Do you have experience in working with persons with cancer or other clinical populations (please specify)
+[exercise_experience]
+
+7. Do you currently work as a trainer/practitioner? [exercise_trainer]
+    Your position: [exercise_trainer_position]
+
+8. From your perspective, what would your volunteer commitment at Wellspring look like?
+[exercise_commitment]
+
+9. Desired volunteer experience:
+[exercise_desired_experience]
+
+10. Are you interested in receiving advanced training specific to work with persons with cancer? [exercise_advanced_training]
+
+Code of Ethics: [exercise_code_of_ethics]

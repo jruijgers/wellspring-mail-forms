@@ -1,0 +1,4 @@
+<input type="radio" name="" value="yes" id="_yes" class="custom"><label for="_yes" class="purple"><span></span> Yes</label>
+<input type="radio" name="" value="no" id="_no" class="custom"><label for="_no" class="purple"><span></span> No</label>
+
+<input type="checkbox" name="[]" value="" id="_" class="custom"><label for="_" class="purple"><span></span> FILLIN</label>

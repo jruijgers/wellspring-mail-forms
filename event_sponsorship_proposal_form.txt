@@ -1,0 +1,58 @@
+<style>
+div.table {
+  display: table;
+  table-layout: auto;
+}
+div.fl {
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  color: #5a5a5a;
+}
+</style>
+
+<div class="table">
+  <div class="row"><div class="columns">
+    <div class="fl">Name*<br>[text* name class:form400]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">Email<Br>[text* email class:form295]</div>
+    <div class="fl">Phone<Br>[text* phone class:form295]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">Address <br>[text* address class:form295]</div>
+    <div class="fl">City <br>[text* city class:form135]</div>
+    <div class="fl">Postal Code <br>[text* postalcode class:form135]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">Description of Event (Please include target audience, anticipated number of participants):<br>[textarea* description class:form400]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">How will funds be generated at this event? (i.e. admission price, raffle, % of sales, etc.):<br>[textarea* funds class:form400]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">Other means (if any) by which funds will be donated to Wellspring Edmonton:<br>[textarea other_means class:form400]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">Describe publicity/promotional plans for the event/sponsorship:<br>[textarea* publicity class:form400]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">Event/Sponsorship start date (if known):<br>[date* start_date class:form400]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">Event/Sponsorship end date (if known):<br>[date* end_date class:form400]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">A. Total Expected Income (donations, pledges, auction/ticket sales, etc.)<br>[text* expected_income class:form400]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">B. Expenses* (costs such as: advertising, rentals, food, etc.)<br>[textarea* expected_expenses class:form400]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">C. Anitcipated (income minus expenses)<br>[text* anticipated class:form400]</div>
+  </div></div>
+  <div class="row"><div class="columns">
+    <div class="fl">D. Please indicate (percentage or specific dollar amount) the portion of proceeds being donated to Wellspring:<br>[text* percentage class:form400]</div>
+  </div></div>
+</div>
+
+[submit class:button-lg class:btn-green class:registration_finish class:custom_registration_submit class:right "Submit"]
